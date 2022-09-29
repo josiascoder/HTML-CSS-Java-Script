@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Idades:</title>
+    <link rel="stylesheet" href="Estilos/estilos.css">
+</head>
+<body>
+    <div id="principal">
+    <header>
+        <h1>Verificador de Idade:</h1>
+    </header>
+    <section>
+        <form action="#" method="get">
+            <p> Ano de Nascimento <input type="number" name="txtano" id="txtano" min="0" id="txtano">
+            <p>Sexo: <input type="radio" name="rad_sex" id="masc" checked> 
+            <label for="masc"> Masculino </label>
+            <input type="radio" name="rad_sex" id="fem"> 
+            <label for="fem"> Feminino </label></p>
+            <p> <input type="button" value="Verificar" id="btn" onclick="verificar()"> </p>
+        </form>
+        <div id="result">
+            Preencha os dados acima para ver o resultado!
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Desenvolvido por Josias Barreto.</p>
+    </footer>
+    </div>
+ <script src="script/script.js"></script>   
+</body>
+</html>
